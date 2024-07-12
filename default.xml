@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote
+      fetch="ssh://review-test.com:29418/"
+      name="home"
+      review="review-test.com" />
+  <default
+      remote="home"
+      revision="m" />
+  <project
+      dest-branch="refs/heads/branch.1.0"
+      name="test/project1"
+      path="project1"
+      revision="refs/heads/branch.1.0"
+      upstream="refs/heads/branch.1.0" />
+  <project
+      dest-branch="refs/heads/branch.2.0"
+      name="test/project2"
+      path="project2"
+      revision="refs/heads/branch.2.0"
+      upstream="refs/heads/branch.2.0" />
+</manifest>
